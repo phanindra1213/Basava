@@ -1,0 +1,28 @@
+/* components/VideoPlayer.module.css */
+
+.videoContainer {
+  position: relative;
+  cursor: pointer;
+}
+
+.thumbnail {
+  width: 100%;
+  transition: opacity 0.3s;
+}
+
+.thumbnail:hover {
+  opacity: 1;
+}
+
+.fullScreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}

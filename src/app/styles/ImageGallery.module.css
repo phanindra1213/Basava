@@ -1,0 +1,19 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .imageContainer {
+    border: 2px solid #ddd;
+    padding: 8px;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  
+  .imageContainer:hover {
+    transform: scale(1.05);
+  }
+  

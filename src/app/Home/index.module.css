@@ -1,0 +1,47 @@
+/* pages/videos.module.css */
+
+.container {
+  min-height: 100vh;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin: 2rem 0;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.video {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  border-radius: 10px;
+  pointer-events: none;
+}
+
+  

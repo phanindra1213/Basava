@@ -1,0 +1,47 @@
+{
+  "name": "basava",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.0.4",
+    "@heroicons/react": "^2.1.4",
+    "@react-typed-hooks/use-key-press": "^1.0.5",
+    "@tailwindcss/typography": "^0.5.13",
+    "downloadjs": "^1.4.7",
+    "framer-motion": "^11.2.11",
+    "html2canvas": "^1.4.1",
+    "i18next": "^23.11.5",
+    "lucide": "^0.395.0",
+    "lucide-react": "^0.395.0",
+    "next": "14.2.4",
+    "next-i18next": "^15.3.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-i18next": "^14.1.2",
+    "react-icons": "^5.2.1",
+    "react-image": "^4.1.0",
+    "react-modal": "^3.16.1",
+    "react-swipeable": "^7.0.1",
+    "react-use-keypress": "^1.3.1",
+    "react-youtube": "^10.1.0",
+    "styled-components": "^6.1.11"
+  },
+  "devDependencies": {
+    "@types/downloadjs": "^1.4.6",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5"
+  }
+}

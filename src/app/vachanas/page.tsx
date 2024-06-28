@@ -22,7 +22,7 @@ const Vachana = () => {
         <div className="flex justify-end mb-4 w-full">
           {/* Language Dropdown */}
           <select
-            className="px-3 py-1  bg-gray-200 hover:bg-gray-500 rounded-md text-sm text-black focus:outline-none focus:ring-2 focus:ring-black"
+            className="px-3 py-1  bg-gray-300 hover:bg-gray-500 rounded-md text-sm text-black focus:outline-none focus:ring-2 focus:ring-black"
             onChange={toggleLanguage}
             value={language}
             style={{ minWidth: '6rem' }} // Added minWidth for dropdown size control
